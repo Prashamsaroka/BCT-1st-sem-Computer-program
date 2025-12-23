@@ -1,0 +1,67 @@
+#include<stdio.h>
+void main (){
+    int a=5,b;
+    b=++a + ++a;
+    printf("a=%d, b=%d",a,b);
+}
+
+
+#include<stdio.h>
+void main (){
+    int a=5,b;
+    b=a++ + a++;
+    printf("a=%d, b=%d",a,b);
+}
+
+
+#include<stdio.h>
+#include<conio.h>
+void main (){
+    int a,b,greatest;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    greatest=(a>b>?a:b;
+    printf("greatest=%d",greatest);
+    getch();
+}
+
+
+#include<stdio.h>
+#include<conio.h>
+void main (){
+    char ch;
+    printf("Enter a letter:");
+    scanf("%c",&ach);
+    ch=ch+32;
+    printf("The letter in lowercase=%c",ch);
+    getch();
+}
+
+
+#include<stdio.h>
+#include<conio.h>
+void main (){
+    int second,hour,min,sec,s;
+    printf("Enter the value of seconds:");
+    scanf("%d",&second);
+    hour=second/3600;
+    sec=second%3600;
+    min=sec/60;
+    s=sec%60;
+    printf("%d seconds =%dhour %dmin %dsec",second,hour,min,s);
+    getch();
+}
+
+
+#include<stdio.h>
+#include<conio.h>
+void main (){
+    int a,b,temp;
+    printf("Enter two numbers:");
+    scanf("%d %d",&a,&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("1st number=%d  2nd number=%d",a,b);
+    getch();
+}
