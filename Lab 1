@@ -1,0 +1,45 @@
+// code to sum two numbers
+#include<stdio.h>
+void main (){
+	int a,b,sum;
+	printf("Enter two numbers:");
+	scanf("%d %d",&a,&b);
+	sum=a+b;
+	printf("The sum is %d",sum);
+}
+
+
+// code to find area and perimeter
+#include<stdio.h>
+void main (){
+	int l,b,a,p;
+	printf("Enter two numbers:");
+	scanf("%d %d",&l,&b);
+	a=l*b;
+	p=2*(l+b);
+	printf("Area=%d Perimeter=%d",a,p);
+}
+
+
+// code to change temperature from celsius to fahrenheit
+#include<stdio.h>
+void main (){
+	float tc,tf;
+	printf("Enter temperature in celsius:");
+	scanf("%f",&tc);
+	tf=(tc*(9.0/5))+32;
+	printf("Temperature in fahrenheit=%f",tf);
+}
+
+
+// code to change temperature from celsius to fahrenheit
+#include<stdio.h>
+#define pi 3.14
+void main (){
+	int r;
+	float area;
+	printf("radius:");
+	scanf("%d",&r);
+	area=pi*pow(r,2);
+	printf("Area=%.2f",area);
+}
